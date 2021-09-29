@@ -7,8 +7,13 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-white);
+    color: #f0f0f0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 ul {
   list-style: none;
@@ -182,8 +187,8 @@ a {
 {
 	display: flex;
 	justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .client-cards .client-cards-card
@@ -193,8 +198,8 @@ a {
 	height: 200px;
 	background: #4d0686;
 	width: calc(100% / 3);
-  overflow: hidden;
-  min-width: 300px; 
+  	overflow: hidden;
+  	min-width: 300px; 
 	align-items: center;
 	justify-content: space-evenly;
 	border-radius: 5px;
