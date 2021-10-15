@@ -188,7 +188,6 @@ a {
 	width: calc(100% / 3);
 	min-width: 250px;
 	overflow: hidden;
-	min-width: 300px; 
 	align-items: center;
 	justify-content: space-evenly;
 	border-radius: 5px;
